@@ -1,6 +1,6 @@
 const assert = require('assert')
 const fs = require('fs')
-const rimraf =  require('rimraf')
+const rimraf = require('rimraf')
 
 afterEach(function() {
   rimraf.sync('output')
