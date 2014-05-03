@@ -1,0 +1,28 @@
+{
+  "name": "broccoli-defs",
+  "version": "0.1.0",
+  "author": "Christian Wesselhoeft <hi@xtian.us>",
+  "description": "A broccoli transform for defs.js",
+  "repository": "https://github.com/xtian/broccoli-defs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/broccoli build output && node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "broccoli-plugin",
+    "transpiler",
+    "const",
+    "let",
+    "es6"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "broccoli-filter": "^0.1.6",
+    "defs": "^0.6.2"
+  },
+  "devDependencies": {
+    "broccoli": "^0.10.0",
+    "mocha": "^1.18.2",
+    "rimraf": "^2.2.6"
+  }
+}
