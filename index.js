@@ -16,7 +16,11 @@ DefsFilter.prototype.extensions = ['js']
 DefsFilter.prototype.targetExtensions = 'js'
 
 DefsFilter.prototype.processString = function(string) {
-  return defs(string, this.options).src
+  const output = defs(string, this.options)
+
+  if (output.errors) { throw new Error(output.errors[0]) }
+
+  return output.src
 }
 
 module.exports = DefsFilter
