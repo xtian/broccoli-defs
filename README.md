@@ -1,4 +1,4 @@
-# broccoli-defs
+# broccoli-defs [![Build Status](https://travis-ci.org/xtian/broccoli-defs.svg?branch=master)](https://travis-ci.org/xtian/broccoli-defs)
 
 A [broccoli](https://github.com/joliss/broccoli) filter for compiling `let` and `const` to `var` using [defs.js](http://github.com/olov/defs).
 
