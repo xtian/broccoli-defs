@@ -2,7 +2,7 @@
   "name": "broccoli-defs",
   "version": "0.1.0",
   "author": "Christian Wesselhoeft <hi@xtian.us>",
-  "description": "A broccoli filter for defs.js",
+  "description": "Transpile let and const to var",
   "repository": "https://github.com/xtian/broccoli-defs",
   "main": "index.js",
   "scripts": {
