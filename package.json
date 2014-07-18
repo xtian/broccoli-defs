@@ -3,10 +3,10 @@
   "version": "0.1.1",
   "author": "Christian Wesselhoeft <hi@xtian.us>",
   "description": "Transpile let and const to var",
-  "repository": "https://github.com/xtian/broccoli-defs",
+  "repository": "xtian/broccoli-defs",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/broccoli build output && node_modules/.bin/mocha"
+    "test": "broccoli build output && mocha"
   },
   "keywords": [
     "broccoli-plugin",
