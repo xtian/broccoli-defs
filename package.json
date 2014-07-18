@@ -1,6 +1,6 @@
 {
   "name": "broccoli-defs",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": "Christian Wesselhoeft <hi@xtian.us>",
   "description": "Transpile let and const to var",
   "repository": "xtian/broccoli-defs",
